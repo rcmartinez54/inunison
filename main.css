@@ -52,6 +52,34 @@ nav ul li {
 #main {
     background: lightblue;
     height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#main p {
+    padding: 30px;
+}
+
+#main img {
+    margin: 30px;
+    box-shadow: 2px 2px 10px #000;
+}
+
+#locale {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#locale div {
+    display: flex;
+    padding: 20px;
+    /* justify-content: space-between; */
+}
+
+#locale div p {
+    padding-left: 30px;
 }
 
 footer {
