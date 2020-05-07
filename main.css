@@ -13,21 +13,31 @@ header {
     /* background: rgba(0, 0, 0, 0.5); */
 }
 
-span {
+.logo {
     font-size: 48px;
     background: -webkit-linear-gradient(blue, gray);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
-nav ul {
+nav .nav_links {
     list-style: none;
 }
 
-nav ul li {
+nav .nav_links li {
     display: inline-block;
     padding: 0 20px;
+}
+
+.nav_links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    transition: all 0.4s ease 0s;
+}
+
+.nav_links a:hover {
+    color: blue;
 }
 
 #hero {
@@ -41,7 +51,7 @@ nav ul li {
 }
 
 .hero_box {
-    background: rgb(31, 156, 5);
+    background: #56ab2f;
     padding: 40px;
     margin: 50px;
     width: 20%;
@@ -50,11 +60,12 @@ nav ul li {
 }
 
 #main {
-    background: lightblue;
+    /* background: #E0EAFC; */
     height: 70vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    border-bottom: 1px solid lightgray;
 }
 
 #main p {
@@ -82,7 +93,12 @@ nav ul li {
     padding-left: 30px;
 }
 
+#locale div img {
+    box-shadow: 10px 10px 10px lightgray;
+    border: 2px solid #000;
+}
+
 footer {
-    background: green;
+    background: linear-gradient(#56ab2f, #a8e063);
     height: 20vh;
 }
