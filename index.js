@@ -58,7 +58,7 @@ $('a[href^="#"]').on('click', function(event) {
 });
 
 function handler () {
-    fadeIn();
+    // fadeIn();
     fadeImgOnScroll();
     fadeNavOnScroll();
     smoothScroll();
