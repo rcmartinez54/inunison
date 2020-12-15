@@ -192,6 +192,12 @@ button {
     /* justify-content: space-between; */
 }
 
+.location_head {
+    font-size: 28px;
+    align-self: center;
+    border-bottom:#004e92 1px solid;
+}
+
 #locale div img {
     border: 1px solid #000;
     width: 40%;
@@ -202,7 +208,7 @@ button {
     flex-direction: column;
 }
 
-#locale .locale_text h2 {
+#locale .locale_text h3 {
     padding: 28px;
     padding-top: 0;
 }
