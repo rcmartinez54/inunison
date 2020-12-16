@@ -4,6 +4,11 @@ function fadeIn () {
     });
 }
 
+function fadeImgsIn () {
+    $('#pictures span').fadeIn(800);
+    console.log('hello');
+}
+
 function fadeImgOnScroll () {
     $(window).scroll(function() {
         if ($(document).scrollTop() > 500) {
@@ -59,6 +64,7 @@ $('a[href^="#"]').on('click', function(event) {
 
 function handler () {
     // fadeIn();
+    fadeImgsIn();
     fadeImgOnScroll();
     fadeNavOnScroll();
     smoothScroll();
