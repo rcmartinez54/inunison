@@ -91,11 +91,16 @@ nav .nav_links li {
     color: blue;
 }
 
-button {
+.careers {
     color: #fff;
     background-color: #2980B9;
     border-radius: 5px;
     padding: 10px;
+    box-shadow: #004e92 3px 3px 3px;
+}
+
+header a {
+    text-decoration: none;
 }
 
 /* .nav_links li:last-child {
@@ -225,6 +230,7 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     font-size: 20px;
+    border-top: 1px solid #fff;
 }
 
 footer .intouch {
@@ -232,7 +238,12 @@ footer .intouch {
 }
 
 footer .media img {
-    height: 30px;
+    height: 40px;
+    padding: 0 20px;
+}
+
+footer .symbol {
+    font-size: 46px;
 }
 
 #pictures {
@@ -240,6 +251,8 @@ footer .media img {
     align-items: center;
     justify-content: center;
     height: 80vh;
+    background: url('img/picturetaking.jpg') no-repeat;
+    background-size: cover;
 }
 
 #pictures span {
