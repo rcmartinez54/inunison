@@ -235,6 +235,20 @@ footer .media img {
     height: 30px;
 }
 
+#pictures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+#pictures span {
+    font-size: 30px;
+    display: none;
+}
+
+
+
 @media screen and (max-width: 500px) {
     header {
         align-content: center;
