@@ -116,8 +116,10 @@ nav .nav_links li {
     background-color: #2980B9;
     border-radius: 5px;
     padding: 10px;
+    margin-left: 20px;
     box-shadow: #004e92 3px 3px 3px;
 }
+
  header a {
      text-decoration: none;
  }
@@ -170,11 +172,22 @@ nav .nav_links li {
     border-bottom: 1px solid lightgray;
     position: relative;
     padding-left: 140px;
+    border-top: #000 solid 2px;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
 }
 
 #main p {
-    width: 40%;
-    font-size: 18px;
+    width: 50%;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: bolder;
+    padding: 10px 0;
+}
+
+#main p i {
+    font-size: 24px;
 }
 
 #main img {
@@ -195,6 +208,7 @@ nav .nav_links li {
     align-items: center;
     justify-content: center;
     font-size: 19px;
+    /* border-bottom: #000 solid 2px; */
 }
 
 .services_ {
@@ -203,6 +217,15 @@ nav .nav_links li {
     flex-direction: column;
     width: 80%;
     height: 80%;
+    
+}
+
+.services_ h2 {
+    /* color: #000; */
+}
+
+.services_ p {
+    line-height: 1.5;
 }
 
 #locale {
@@ -236,10 +259,13 @@ nav .nav_links li {
 #locale .locale_text h3 {
     padding: 28px;
     padding-top: 0;
+    font-size: 30px;
 }
 
 #locale .locale_text p {
     padding-left: 30px;
+    line-height: 2;
+    font-size: 20px;
 }
 
 footer {
@@ -289,13 +315,16 @@ footer .symbol {
     }
     header {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-end;
     }
 
     header .logo {
-        margin: auto;
-        padding-bottom: 20px;
+        display: none;
+    }
+
+    header .logo_img {
+        width: 20%;
     }
 
     nav ul {
@@ -305,8 +334,18 @@ footer .symbol {
         align-items: flex-end;
     }
 
+
     nav ul li {
         padding-left: 20px;
+    }
+
+    .careers {
+        color: #2980B9;
+        background-color: #fff;
+        margin-left: 20px;
+        box-shadow: none;
+        border-radius: 0%;
+        padding: 0;
     }
 
     #hero {
@@ -356,14 +395,15 @@ footer .symbol {
     }
 
     #services {
-        /* height: 60vh; */
-        /* padding: 50px 0; */
+        height: 100%;
         background: #004e92;
         color: #fff;
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 14px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     
     .services_ {
@@ -390,5 +430,11 @@ footer .symbol {
     }
     footer {
         flex-direction: column;
+        height: 100%;
+        padding: 20px;
     }
+    footer .intouch {
+        padding-bottom: 10px;
+    }
+
 }
