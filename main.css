@@ -370,7 +370,7 @@ footer .symbol {
     }
 
     #main {
-        /* height: 60vh; */
+        height: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -414,6 +414,9 @@ footer .symbol {
         height: 80%;
     }
 
+    #locale {
+        padding: 0; 
+    }
 
     #locale div {
         flex-direction: column;
@@ -422,12 +425,24 @@ footer .symbol {
     #locale div .house {
         width: 100%;
     }
+
+    #locale .locale_text{
+        padding: 0;
+    }
+    
     #locale .locale_text p {
         padding-left: 0;
     }
     #locale .locale_text h2 {
         padding-left: 0;
     }
+
+    #locale .locale_text h3 {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0px;
+    }
+
     footer {
         flex-direction: column;
         height: 100%;
