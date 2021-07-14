@@ -12,7 +12,7 @@ function fadeImgsIn () {
 function fadeImgOnScroll () {
     $(window).scroll(function() {
         if ($(document).scrollTop() > 500) {
-            $('#main img').fadeIn(400);
+            $('#main img').fadeIn(900);
         } 
     });
     // $('#main img').delay(5000).fadeIn(1000);
